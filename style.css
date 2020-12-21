@@ -1,0 +1,347 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* Loader elements */
+#loader{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background: #000;
+    z-index: 99;
+    text-align: center;
+}
+#loaderimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    color: #fff;
+    font-size: 5vh;
+}
+
+/* Video Background */
+#video-background{
+    position:absolute;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width:auto;
+    height: auto;
+    z-index: -100;
+}
+/* CENTRILIZING THE VIDEO!!! */
+@media (min-aspect-ratio: 16/9){
+    #video-background{
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    #video-background{
+        width:100%;
+        height: auto;
+    }
+}
+
+header{
+    background: rgba(0,0,100,0.5);
+    height:100vh;
+}
+
+/* Styling the navigation taskbar */
+#nav{
+    background: rgba(1,1,1,0.5);
+    height:80px;
+}
+.logo{
+    margin:10px 50px;
+    height: 60px;
+}
+#menu{
+    float:right;
+    list-style: none;
+    margin:20px;
+}
+#menu li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+#menu li a {
+    text-decoration: none;
+    color:#fff;
+    padding:5px 10px;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #fff;
+}
+
+#menu li a:hover{
+    background: coral;
+    border-bottom: 1px solid coral;
+    transition: 1.4s;
+}
+
+/* The text in the header */
+#msgfirst{
+    position:relative;
+    text-align:center;
+    font-family: sans-serif;
+    color:#fff;
+    top:200px;
+}
+
+#msgfirst h1{
+    font-size:52px;
+    margin:25px;
+}
+
+/* SoloLearn certificate styling */
+
+#Sololearn{
+    /* Change the height later */
+    height:202vh;
+
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:#92a8d1;;
+}
+#Sololearn #header123{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.container1{
+    max-width: 1239px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+}
+.sololearngallery{
+    margin: 10px;
+    border:1px solid #ccc;
+    float:left;
+    width:390px;
+}
+
+.sololearngallery a{
+    text-decoration: none;
+}
+
+.sololearngallery img{
+    width:100%;
+    height:auto;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+    font-weight:medium;
+}
+
+/* Glassdoor certificate styling */
+
+#Glassdoor{
+    /* Change the height later */
+    height:80vh;
+
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:#92a8d1;;
+}
+#Glassdoor #header123{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.container2{
+    /* max-width: 1239; (453)*/
+    width: 410px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+}
+.glassdoorgallery{
+    margin: 10px;
+    border:1px solid #ccc;
+    float:left;
+    /* width:390px; */
+    width:390px;
+}
+
+.glassdoorgallery a{
+    text-decoration: none;
+}
+
+.glassdoorgallery img{
+    width:100%;
+    height:auto;
+}
+.desc2{
+    padding:15px;
+    text-align: center;
+    font-weight:medium;
+}
+
+/* Hackerrank certificate styling */
+
+#HackerRank{
+    /* Change the height later */
+    height:60vh;
+
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:#92a8d1;;
+}
+#HackerRank #header1234{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.container3{
+    max-width: 1239px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+}
+.hackerrankgallery{
+    margin: 10px;
+    border:1px solid #ccc;
+    float:left;
+    width:390px;
+}
+
+.hackerrankgallery a{
+    text-decoration: none;
+}
+
+.hackerrankgallery img{
+    width:100%;
+    height:auto;
+}
+.desc3{
+    padding:15px;
+    text-align: center;
+    font-weight:medium;
+}
+
+
+/* Coursera styling */
+
+#Coursera{
+    /* Change the height later */
+    height:200vh;
+
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:#92a8d1;;
+}
+#Coursera #header1234{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.container4{
+    max-width: 1239px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+}
+.courseragallery{
+    margin: 10px;
+    border:1px solid #ccc;
+    float:left;
+    width:390px;
+}
+
+.courseragallery a{
+    text-decoration: none;
+}
+
+.courseragallery img{
+    width:100%;
+    height:auto;
+}
+.desc4{
+    padding:15px;
+    text-align: center;
+    font-weight:medium;
+}
+
+/* Others certificate styling */
+
+#Other{
+    /* Change the height later */
+    height:220vh;
+
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:#92a8d1;;
+}
+#Other #header1234{
+    text-align: center;
+    font-size: 52px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:20px;
+    font-weight: bold;
+}
+
+.container5{
+    max-width: 1239px;
+    margin:auto;
+    background:#f2f2f2;
+    overflow:auto;
+}
+.othergallery{
+    margin: 10px;
+    border:1px solid #ccc;
+    float:left;
+    width:390px;
+}
+
+.othergallery a{
+    text-decoration: none;
+}
+
+.othergallery img{
+    width:100%;
+    height:auto;
+}
+.desc5{
+    padding:15px;
+    text-align: center;
+    font-weight:medium;
+}
+
+
+/* The button when pressed */
+#rawfile {
+    text-decoration: none;
+    font-size: 50px;
+
+}
+
+
+

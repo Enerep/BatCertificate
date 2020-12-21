@@ -1,0 +1,18 @@
+C++ certificate: https://www.sololearn.com/Certificate/1051-8244074/pdf/
+C++ certificate(2): https://www.sololearn.com/certificates/course/en/8244074/1051/landscape/png
+C certificate: https://www.sololearn.com/Certificate/1089-8244074/pdf/
+HTML certificate: https://www.sololearn.com/Certificate/1014-8244074/pdf/
+CSS certificate: https://www.sololearn.com/Certificate/1023-8244074/pdf/
+C# certificate: https://www.sololearn.com/Certificate/1080-8244074/pdf/
+JavaScript certificate: https://www.sololearn.com/Certificate/1024-8244074/pdf/
+JavaScript certificate(2): https://www.sololearn.com/certificates/course/en/8244074/1024/landscape/png
+Java certificate: https://www.sololearn.com/Certificate/1068-8244074/pdf/
+Java certificate(2): https://www.sololearn.com/certificates/course/en/8244074/1068/landscape/png
+PHP certificate: https://www.sololearn.com/Certificate/1059-8244074/pdf/
+SQL certificate: https://www.sololearn.com/Certificate/1060-8244074/pdf/
+Swift 4 certificate: https://www.sololearn.com/Certificate/1075-8244074/pdf/
+Data Science With Python: https://www.sololearn.com/Certificate/1093-8244074/pdf/
+Machine Learning certificate: https://www.sololearn.com/Certificate/1094-8244074/pdf/
+Python 3 certificate: https://www.sololearn.com/certificates/course/en/8244074/1073/landscape/pdf
+Ruby certificate: https://www.sololearn.com/Certificate/1081-8244074/pdf/
+Back To School(SoloLearn): http://sololearn-media9960.cloudapp.net:4687/api/v2/certificate/bts-completion/8244074?language=en&orientation=landscape&format=pdf
