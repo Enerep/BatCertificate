@@ -3,4 +3,4 @@ $(document).ready( function() {
     $('#loader').delay(3000).fadeOut();
 });
 
-alert("Hello!");
+alert("Hello! For best experience use desktop interface");
