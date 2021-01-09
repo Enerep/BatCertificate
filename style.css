@@ -105,8 +105,8 @@ header{
 /* SoloLearn certificate styling */
 
 #Sololearn{
-    /* Change the height later */
-    height:210vh;
+    /* Change the height later 210 before */
+    height:220vh;
 
     box-sizing: border-box;
     margin: 0px;
@@ -151,8 +151,8 @@ header{
 /* Glassdoor certificate styling */
 
 #Glassdoor{
-    /* Change the height later */
-    height:80vh;
+    /* Change the height later 80vh before */
+    height:100vh;
 
     box-sizing: border-box;
     margin: 0px;
